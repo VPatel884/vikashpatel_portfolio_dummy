@@ -27,11 +27,15 @@ body {
     padding: 0.5rem 1rem;
 }
 
+.link-active {
+    font-weight: bold;
+}
+
 .primary-link {
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.6rem;
-    margin: 1rem 1rem;
+    margin: 1rem auto;
     display: block;
     max-width: 140px;
     text-align: center;
@@ -39,7 +43,7 @@ body {
 
 .secondary-link {
     border: 1px solid var(--primary-color);
-    margin: 1rem 1rem;
+    margin: 1rem auto;
     color: var(--primary-color);
     border-radius: 0.6rem;
     display: block;
@@ -100,6 +104,8 @@ portfolio-header {
 
 .section {
     padding: 2rem;
+    border-radius: 1rem;
+    margin: 0.5rem 1rem;
 }
 
 .section h3 {
